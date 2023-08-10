@@ -1,17 +1,13 @@
 import React from "react";
 import logo from "../../../../public/habhit.png";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const Navigation = () => {
-
-
-const Navigationlinks = () => (
+  const Navigationlinks = () => (
     <>
       <NavLink
         to="/"
-        className={({ isActive }) =>
-          isActive ? "text-[#62acff]" : ""
-        }
+        className={({ isActive }) => (isActive ? "text-[#62acff]" : "")}
       >
         <li>
           <a>Home</a>
@@ -19,9 +15,7 @@ const Navigationlinks = () => (
       </NavLink>
       <NavLink
         to="/course"
-        className={({ isActive }) =>
-          isActive ? "text-[#62acff]" : ""
-        }
+        className={({ isActive }) => (isActive ? "text-[#62acff]" : "")}
       >
         <li>
           <a>course</a>
@@ -29,9 +23,7 @@ const Navigationlinks = () => (
       </NavLink>
       <NavLink
         to="/admission"
-        className={({ isActive }) =>
-          isActive ? "text-[#62acff]" : ""
-        }
+        className={({ isActive }) => (isActive ? "text-[#62acff]" : "")}
       >
         <li>
           <a>Admission</a>
@@ -39,9 +31,7 @@ const Navigationlinks = () => (
       </NavLink>
       <NavLink
         to="/facility"
-        className={({ isActive }) =>
-          isActive ? "text-[#95c6fd]" : ""
-        }
+        className={({ isActive }) => (isActive ? "text-[#95c6fd]" : "")}
       >
         <li>
           <a>Facilities</a>
@@ -49,9 +39,7 @@ const Navigationlinks = () => (
       </NavLink>
       <NavLink
         to="/facility"
-        className={({ isActive }) =>
-          isActive ? "text-[#95c6fd]" : ""
-        }
+        className={({ isActive }) => (isActive ? "text-[#95c6fd]" : "")}
       >
         <li>
           <a>History</a>
@@ -59,9 +47,7 @@ const Navigationlinks = () => (
       </NavLink>
       <NavLink
         to="/facility"
-        className={({ isActive }) =>
-          isActive ? "text-[#95c6fd]" : ""
-        }
+        className={({ isActive }) => (isActive ? "text-[#95c6fd]" : "")}
       >
         <li>
           <a>About HABHIT</a>
@@ -69,9 +55,7 @@ const Navigationlinks = () => (
       </NavLink>
       <NavLink
         to="/facility"
-        className={({ isActive }) =>
-          isActive ? "text-[#95c6fd]" : ""
-        }
+        className={({ isActive }) => (isActive ? "text-[#95c6fd]" : "")}
       >
         <li>
           <a>Notices</a>
@@ -79,9 +63,7 @@ const Navigationlinks = () => (
       </NavLink>
       <NavLink
         to="/facility"
-        className={({ isActive }) =>
-          isActive ? "text-[#95c6fd]" : ""
-        }
+        className={({ isActive }) => (isActive ? "text-[#95c6fd]" : "")}
       >
         <li>
           <a>Contact</a>
@@ -89,11 +71,6 @@ const Navigationlinks = () => (
       </NavLink>
     </>
   );
-
-
-
-
-
 
   return (
     <>
@@ -103,38 +80,30 @@ const Navigationlinks = () => (
           Haji Abul Hossain Institute of Technology (HABHIT)
         </h1>
       </div>
-      <div className="navbar bg-[#1565c0]">
-        <div className="navbar-start text-white">
-          <div className="dropdown">
-            <label tabIndex={0} className="btn btn-ghost lg:hidden">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-5 w-5"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M4 6h16M4 12h8m-8 6h16"
-                />
-              </svg>
-            </label>
-            <ul
-              tabIndex={0}
-              className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
-            >
-              <Navigationlinks />
-            </ul>
-          </div>
-          <div className="hidden lg:flex">
-            <ul className="menu menu-horizontal px-1">
-              <Navigationlinks />
-            </ul>
-          </div>
-        </div>
+      <div className="bg-[#1565c0] px-4 text-white flex items-center justify-between">
+       <ul className="flex items-center gap-3">
+       <li className="hover:bg-[#62acff] py-2 px-3">
+          <a href="">home</a>
+        </li>
+        <li className="hover:bg-[#62acff] py-2 px-3">
+          <a href="">course</a>
+        </li>
+        <li className="hover:bg-[#62acff] py-2 px-3">
+          <a href="">Ability</a>
+        </li>
+        <li className="hover:bg-[#62acff] py-2 px-3">
+          <a href="">History</a>
+        </li>
+        <li className="hover:bg-[#62acff] py-2 px-3">
+          <a href="">home</a>
+        </li>
+        <li className="hover:bg-[#62acff] py-2 px-3">
+          <a href="">home</a>
+        </li>
+       </ul>
+       <div>
+        <Link to='/login'><p>Login</p></Link>
+       </div>
       </div>
     </>
   );
