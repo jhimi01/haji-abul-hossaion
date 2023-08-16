@@ -1,0 +1,57 @@
+{
+    "departments": {
+      "diplomaPrograms": {
+        "Civil": {
+          "name": "Civil Engineering",
+          "description": "The Civil Engineering department focuses on the design, construction, and maintenance of infrastructure projects such as roads, bridges, and buildings."
+        },
+        "Computer": {
+          "name": "Computer Engineering",
+          "description": "The Computer Engineering department covers areas such as software development, hardware design, and computer systems analysis."
+        },
+        "Electrical": {
+          "name": "Electrical Engineering",
+          "description": "The Electrical Engineering department specializes in the study of electrical systems, electronics, and power generation."
+        },
+        "Electronics": {
+          "name": "Electronics Engineering",
+          "description": "The Electronics Engineering department deals with the design and development of electronic circuits and devices."
+        },
+        "Telecommunication": {
+          "name": "Telecommunication Engineering",
+          "description": "The Telecommunication Engineering department focuses on communication systems, networks, and wireless technologies."
+        },
+        "Textile": {
+          "name": "Textile Engineering",
+          "description": "The Textile Engineering department covers the study of fabrics, materials, and textile production processes."
+        },
+        "GDPM": {
+          "name": "Graphic Design and Printing Management",
+          "description": "The Graphic Design and Printing Management department involves creative design and print production for various media."
+        },
+        "Dental": {
+          "name": "Dental",
+          "description": "The Dental department specializes in oral health, dental care, and related medical practices."
+        },
+        "Pathology": {
+          "name": "Pathology",
+          "description": "The Pathology department focuses on the study and diagnosis of diseases through laboratory analysis of bodily fluids and tissues."
+        },
+        "H.S.C (BM)": {
+          "name": "Higher Secondary Certificate (Business Management)",
+          "description": "The Higher Secondary Certificate department in Business Management offers courses related to business and management studies."
+        }
+      },
+      "honoursPrograms": {
+        "BBA": {
+          "name": "Bachelor of Business Administration (BBA)",
+          "description": "The BBA program covers various aspects of business management, including finance, marketing, and organizational behavior."
+        },
+        "CSE": {
+          "name": "Computer Science and Engineering (CSE)",
+          "description": "The CSE program focuses on computer science fundamentals, software development, and computer systems."
+        }
+      }
+    }
+  }
+  

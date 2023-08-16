@@ -1,0 +1,38 @@
+/* Add this CSS in your main stylesheet or as a separate CSS file */
+
+.dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: none;
+  }
+/*   
+  .hover\:bg-[#62acff]:hover .dropdown {
+    display: block;
+  } */
+  
+  .dropdown-content {
+    list-style: none;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 200px;
+    z-index: 1;
+  }
+  
+  .dropdown-content li {
+    margin: 5px 0;
+  }
+  
+  .dropdown-content a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .dropdown-content a:hover {
+    color: #62acff;
+  }
+  
